@@ -1,0 +1,115 @@
+@import url(./position.css);
+@import url(./footer.css);
+.abbout_us{
+    background-color: var(--peach-color);
+    background-image: url(../img/about/desktop/bg-pattern-hero-about-desktop.svg);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 480px;
+    color: #fff;
+}
+.abbout_us h2{
+    padding-top: 135px;
+    margin-left: 95px;
+    margin-bottom: 32px;
+    width: 540px;
+    height: 48px;
+    font-size: 4.8rem;
+    font-weight: 500;
+    line-height: 4.8rem;
+}
+.abbout_us p{
+    margin-top:62px;
+    margin-left: 95px;
+    padding-right: 82px;
+}
+.main_about_container{
+    display: flex;  
+}
+.talent_container{
+    display: flex;
+    margin-top: 160px;
+    margin-bottom:160px;
+}
+.world h3{
+    margin-left: 94px;
+    margin-top: 154px;
+    width: 445px;
+    height: 48px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #E7816B;
+    margin-bottom: 24px;
+}
+.world{
+    background-color: #fdf3f0;
+    width: 635px;
+}
+.world p{
+    width: 445px;
+    margin-left: 94px;
+    font-weight: 400;
+    line-height: 2.6rem;
+}
+.group p{
+    width: 350px;
+    height: 26px;
+    font-size: 2.0rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    letter-spacing: 5px;
+    color: #333136;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.group img{
+    margin-left: 74px;
+}
+.group button{
+    width: 152px;
+    height: 56px;
+    background-color: #E7816B;
+    border: 0px;
+    border-radius: 5px;
+    transition: all 1s;
+    cursor: pointer;
+    margin-left: 99px;
+}
+.group button:hover{
+    background-color: #ffad9b;
+}
+.flex_talent{
+    display: flex;
+}
+.text h2{
+    padding-top:154px;
+    width: 445px;
+    height: 48px;
+    font-size: 4.0rem;
+    font-weight: 500;
+    line-height: 4.8rem;
+    color:#E7816B;
+    padding-left: 95px;
+    margin-bottom: 70px;
+}
+.text p{
+    width: 445px;
+    height: 200px;
+    color: #333136;
+    font-weight: 400;
+    line-height: 2.6rem;
+    margin-top: 24px;
+    margin-left: 95px;
+}
+.the_real{
+    height: 640px;
+    margin-top: 160px;
+    display: flex;
+    margin-bottom: 160px;
+}
+.text{
+    background-color: #FDF3F0;
+    height: 640px;
+    width:635px;
+}
